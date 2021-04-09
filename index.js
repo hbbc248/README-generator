@@ -108,7 +108,7 @@ const  promptLicense = () => {
         type: 'list',
         name: "license",
         message: "Please select a license for your project (Required):",
-        choices: ['JavaScript', 'BSM', 'MIT', 'GPL'],
+        choices: ['BSM', 'MIT', 'GPL'],
         validate: nameInput => {
           if (nameInput) {
             return true;

@@ -1,6 +1,4 @@
 
-
- 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 const renderLicenseBadge = license => {
@@ -9,33 +7,69 @@ const renderLicenseBadge = license => {
   } else {
     return "";
   }
-
-
-
 };
-
-/*
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
+const renderLicenseLink = license => {
+  if (license) {
+    if (license === "BSM") {return "[BSM](https://choosealicense.com/licenses/bsd-2-clause/)";}
+    if (license === "MIT") {return "[MIT](https://choosealicense.com/licenses/mit/)";}
+    if (license === "GPL") {return "[GPL](https://choosealicense.com/licenses/gpl-2.0/)";}
+  } else {
+    return "";
+  }
+};
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+const renderLicenseSection = license => {
+  if (license) {
+    return ("This project was done under the " + license + " license to know more about it, please click here: ");
+  } else {
+    return "";
+  }
+};
 
+// description Section
+const renderDescriptionSection = description => {
+  if (description) {
+    return description;
+  } else {
+    return "";
+  }
+};
 
-
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
-
-`;
-}
-
-module.exports = generateMarkdown;
-
-*/
+// installation Section
+const renderInstallationSection = installation => {
+  if (installation) {
+    return installation;
+  } else {
+    return "";
+  }
+};
+// usage Section
+const renderUsageSection = usage => {
+  if (usage) {
+    return usage;
+  } else {
+    return "";
+  }
+};
+// contribution Section
+const renderContributionSection = contribution => {
+  if (contribution) {
+    return contribution;
+  } else {
+    return "";
+  }
+};
+// tests Section
+const renderTestsSection = tests => {
+  if (tests) {
+    return tests;
+  } else {
+    return "";
+  }
+};
 
 
 
@@ -51,7 +85,7 @@ module.exports = readmeData => {
   ${renderLicenseBadge(license)}
 
   ## Description
-  ${description}
+  ${renderDescriptionSection(description)}
 
   ## Table of Contents
   * [Installation](#installation)
@@ -62,18 +96,19 @@ module.exports = readmeData => {
   * [Questions](#questions)
   
   ## Installation
-  ${installation}
+  ${renderInstallationSection(installation)}
 
   ## Usage
-  ${usage}
+  ${renderUsageSection(usage)}
 
   ## Contribution
-  ${contribution}
+  ${renderContributionSection(contribution)}
 
   ## Tests
-  ${tests}
+  ${renderTestsSection(tests)}
 
   ## License
+  ${renderLicenseSection(license)}${renderLicenseLink(license)}
 
   ## Questions
   `;
