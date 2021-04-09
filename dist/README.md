@@ -1,27 +1,27 @@
 
-  # dfg
+  # Ibrahim
 
   ## Description
   undefined
 
   ## Table of Contents
-  * [Installation instructions](#instalation instructions)
-  * [Usage Information](#usage)
-  * [Contribution guidelines](#contribution guidelines)
-  * [Tests instructions](#tests instructions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contribution](#contribution)
+  * [Tests](#tests)
   * [License](#license)
   * [Questions](#questions)
   
-  ## Installation instructions
+  ## Installation
   undefined
 
-  ## Usage Information
+  ## Usage
   undefined
 
-  ## Contribution guidelines
+  ## Contribution
   undefined
 
-  ## Test instructions
+  ## Tests
   undefined
 
   ## License

@@ -41,23 +41,23 @@ module.exports = readmeData => {
   ${description}
 
   ## Table of Contents
-  * [Installation instructions](#instalation instructions)
-  * [Usage Information](#usage)
-  * [Contribution guidelines](#contribution guidelines)
-  * [Tests instructions](#tests instructions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contribution](#contribution)
+  * [Tests](#tests)
   * [License](#license)
   * [Questions](#questions)
   
-  ## Installation instructions
+  ## Installation
   ${installation}
 
-  ## Usage Information
+  ## Usage
   ${usage}
 
-  ## Contribution guidelines
+  ## Contribution
   ${contribution}
 
-  ## Test instructions
+  ## Tests
   ${tests}
 
   ## License
