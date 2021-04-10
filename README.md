@@ -4,15 +4,20 @@
   ![MIT](https://img.shields.io/badge/License-MIT-green)
 
   ## Description
-  README Generator is a Node.js application made to generate readme for different projects. The user is prompt with questions to eneter all the necessary information in the terminal. Once title or name of the project is entered, the basic README.md file is created. Then, after other questions are responded the file is update it a few times along the process until is completed. Once completed the user can copy the file from the folder dist/ and use or modify as desired.
+  README Generator is a Node.js application made to generate readme for different projects. The user is prompt with questions to enter all the necessary information in the terminal. Once title or name of the project is entered, the basic README.md file is created. Then, after other questions are responded the file is update it a few times along the process until is completed. Once completed the user can copy the file from the folder dist/ and use or modify as desired.
 
   ## Table of Contents
+  * [Video](#Video)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contribution](#contribution)
   * [Tests](#tests)
   * [License](#license)
   * [Questions](#questions)
+
+  ## Video
+  https://drive.google.com/file/d/13cq3ZI0AN2a91PxqYTKD0wtMpEWxGNo9/view
+  
   
   ## Installation
   To install first make sure you have node.js installed in your computer. Copy the repository and install the inquirer NPM in the same directory.
