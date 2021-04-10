@@ -70,6 +70,23 @@ const renderTestsSection = tests => {
     return "";
   }
 };
+// Questions github Section
+const renderGithubSection = github => {
+  if (github) {
+    return ("Please visit my GitHub page: https://github.com/" + github);
+  } else {
+    return "";
+  }
+};
+
+// Questions email Section
+const renderEmailSection = email => {
+  if (email) {
+    return ("For more information please email me at: " + email);
+  } else {
+    return "";
+  }
+};
 
 
 
@@ -77,7 +94,7 @@ const renderTestsSection = tests => {
 
 module.exports = readmeData => {
   
-  const {title, description, installation, usage, contribution, tests, license} = readmeData;
+  const {title, description, installation, usage, contribution, tests, license, github, email} = readmeData;
 
   return `
   # ${title}
@@ -111,6 +128,8 @@ module.exports = readmeData => {
   ${renderLicenseSection(license)}${renderLicenseLink(license)}
 
   ## Questions
+  ${renderGithubSection(github)}
+  
+  ${renderEmailSection(email)}
   `;
-
 };
