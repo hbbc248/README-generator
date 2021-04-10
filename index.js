@@ -153,9 +153,10 @@ const  promptContact = () => {
   ]);
 };
 
-
-// promp user for title
-promptTitle()
+// main function
+const init = () => {
+  // promp user for title
+  promptTitle()
     .then(data => { 
       readmeData = {...readmeData, ...data};
       // call function to generate markdown
@@ -219,8 +220,12 @@ promptTitle()
     })
     .catch(err => {
         console.log(err);
-    });            
+  });            
+};
 
+
+// initialize software
+init();
 
 
 
