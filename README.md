@@ -16,8 +16,10 @@
   * [Questions](#questions)
 
   ## Video
-  https://drive.google.com/file/d/13cq3ZI0AN2a91PxqYTKD0wtMpEWxGNo9/view
-  
+
+  [![Walkthrough Video](https://drive.google.com/file/d/13cq3ZI0AN2a91PxqYTKD0wtMpEWxGNo9/view)](https://drive.google.com/file/d/13cq3ZI0AN2a91PxqYTKD0wtMpEWxGNo9/view)
+ 
+
   
   ## Installation
   To install first make sure you have node.js installed in your computer. Copy the repository and install the inquirer NPM in the same directory.
